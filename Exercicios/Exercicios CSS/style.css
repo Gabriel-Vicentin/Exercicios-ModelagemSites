@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+    main{
+        margin: 10px auto;
+
+        padding: 2px;
+
+        position: relative;
+    }
+
+    .caixa{
+        border:3px solid black;
+        padding: 10px;
+        margin: 10px;
+        width: 30%;
+        float: left;
+    }
+
+     img{  
+        width: 32%;
+        margin: 5px;
+        float: initial;
+        height: 350px;
+    }
+
+    footer{
+        background-color: lightslategray;
+        color: white;
+        text-align: center;
+        padding: 4px;
+    }
+
+    .button{
+        background-color: grey;
+        color: black;
+        border-style:solid;
+        border-color: black;
+        border-radius: 10%;
+    }
+    footer > input:hover{
+        text-decoration:line-through;
+        color: red;
+    }

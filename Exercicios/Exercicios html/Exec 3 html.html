@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    
+    <link rel="icon" href="img/icons8-documents-64.png" type="imagens">
+    
+    <style>
+        body {
+
+            background-image:url(img/Home\ -\ Eweb4_com.jpeg); 
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+        }
+        
+    </style>
+    
+
+</head>
+
+<body>
+    
+    <h1>Forms</h1>
+
+    <form method="get" action="">
+
+        <label for="idlogin">Nome:</label>
+        <br>
+            <input type="text" id="idlogin" name="idlogin" placeholder="Nome"> <br><br>
+
+        <label for="idsenha">Sobrenome:</label>
+        <br>
+            <input type="password" id="idsenha" name="idsenha" placeholder="Sobrenome"> <br><br>
+
+        <h2>Sexo</h2>
+        
+            <input type="radio" id="idsexo1" name="idsexo" value="M">
+                <label for="idsexo">Masculino</label>
+            <br>
+
+            <input type="radio" id="idsexo2" name="idsexo" value="F">
+                <label for="idsexo2">Feminino</label>
+            <br>
+            
+            <input type="radio" id="idsexo3" name="idsexo" value="NF">
+                <label for="idsexo3">Não Informar</label>
+            <br>   
+        
+        <h2>Idade</h2>
+            
+            <input type="date" name="ididade" id="ididade">
+            <br>
+                
+        <h2>Conhecimentos de linguagens</h2>
+
+            <input type="checkbox" id="idc" name="idling">
+                <label for="idc">C</label>
+            <br> <br>
+
+            <input type="checkbox" name="idjava" id="idling">
+                <label for="idling">Java</label>
+            <br> <br>
+
+            <input type="checkbox" name="idpython" id="idling">
+                <label for="idling">Python</label>
+            <br> <br>
+
+            <input type="checkbox" name="idphp" id="idling">
+                <label for="idling">PHP</label>
+            <br> <br>
+            
+        <h2>Idiomas</h2>
+            
+            <input type="checkbox" name="ididioma" id="idingles">
+                <label for="ididioma">Inglês</label>
+            <br> <br>
+            
+            <input type="checkbox" name="ididioma" id="idespanhol">
+                <label for="ididioma">Espanhol</label>
+            <br> <br>
+            
+            <input type="checkbox" name="ididioma" id="idmandarim">
+                <label for="ididioma">Mandarim</label>
+            <br> <br>
+
+        <h2>Formação Academica</h2>
+        
+            <input type="radio" name="idformacao" id="idfundamental">
+                <label for="idformacao">Ensino Fundamental incompleto</label>
+            <br> <br>
+
+            <input type="radio" name="idformacao" id="idfundamentalcomp">
+                <label for="idformacao">Ensino Fundamental completo</label>
+            <br> <br>
+
+            <input type="radio" name="idformacao" id="idmedio">
+                <label for="idformacao">Ensino Medio incompleto</label>
+            <br> <br>
+
+            <input type="radio" name="idformacao" id="idmediocomp">
+                <label for="idformacao">Ensino Medio completo</label>
+            <br> <br>
+
+        <h2>Formas de contato </h2>
+
+            <label for="idemail">Email: </label>
+                <input placeholder="abcdefg@email.com" type="email" name="idemail" id="idemail">
+            <br> <br>
+
+            <label for="idtel">Telefone: </label>
+                <input type="tel" name="idtel" id="idtel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            <br> <br>
+            
+
+        <h2>Anexo de Arquivo</h2>
+        
+        <label for="idarquivo">Selecione um arquivo:</label>
+        <input type="file" name="idarquivo" id="idarquivo">
+
+        <h2>O que é isso?</h2>
+
+            <input type="button" onclick="alert('Olá Amigos')" value="Não clique">
+        <br> <br>
+            
+            <input type="submit" value="Enviar">
+        <br> <br>
+
+        <input type="reset" value="Limpar">
+
+    </form>
+</body>
+</html>
