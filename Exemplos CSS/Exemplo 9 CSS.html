@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aqua;
+            width:800px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: white;
+            border: 1px solid black;
+            margin: 5px;
+            width: 80px;
+            height: 80px;
+            flex: 1;
+        }
+
+        .order999{
+            order: 99999;
+        }
+
+        .order-1{
+            order: -1;
+        }
+
+        .grow{
+            flex-grow: 2
+        }
+
+        .basic{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1>
+
+    <div class="container">
+        <div class="item grow">Teste 1</div>
+        <div class="item basic">Teste2</div>
+        <div class="item">Teste3</div>
+        <div class="item order-1" >Teste4</div>
+    </div>
+</body>
+</html>
